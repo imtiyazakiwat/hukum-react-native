@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-app",
-    "slug": "expo-app",
+    "name": "Hukum",
+    "slug": "indian-heritage-premium-card-duel",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -14,17 +14,18 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "app.rork.indian-heritage-premium-card-duel"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "app.rork.indian-heritage-premium-card-duel"
     },
     "web": {
-      "favicon": "./assets/images/favicon.png",
-      "output": "server"
+      "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       [
